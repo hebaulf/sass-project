@@ -1,17 +1,19 @@
+/* Section Heading styles */
 .headings {
-  @include flex-center-column;
+  @include flex-center-column; // Using the flexbox mixin for column with centering
 
   &__main {
-    @include flex-center;
+    @include flex-center; // Using the flexbox mixin with centering
     justify-content: space-evenly;
   }
 }
 
+/* Section Paragraphs styles */
 .paragraphs {
-  @include flex-center-column;
+  @include flex-center-column; // Using the flexbox mixin for column with centering
 
   &__wrap {
-    @include flex-center-column;
+    @include flex-center-column; // Using the flexbox mixin for column with centering
   }
 
   &__box {
@@ -20,7 +22,7 @@
 
   @media screen and (min-width: 768px) {
     &__wrap {
-      @include flex-center-horiz;
+      @include flex-center-horiz; // Using the flexbox mixin for with horizontal centering
       flex-direction: row;
       align-items: flex-start;
     }
@@ -31,14 +33,16 @@
   }
 }
 
+/* Section Links styles */
 .links {
-  @include flex-center-column;
+  @include flex-center-column; // Using the flexbox mixin for column with centering
 
   p {
     max-width: 800px;
   }
 }
 
+/* Section Buttons styles */
 .buttons {
-  @include flex-center-column;
+  @include flex-center-column; // Using the flexbox mixin for column with centering
 }

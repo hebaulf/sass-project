@@ -255,6 +255,7 @@ a:hover:after {
 }
 
 /* COMPONENTS */
+/* Section Heading styles */
 .headings {
   display: flex;
   align-items: center;
@@ -268,6 +269,7 @@ a:hover:after {
   justify-content: space-evenly;
 }
 
+/* Section Paragraphs styles */
 .paragraphs {
   display: flex;
   align-items: center;
@@ -295,6 +297,7 @@ a:hover:after {
   }
 }
 
+/* Section Links styles */
 .links {
   display: flex;
   align-items: center;
@@ -305,6 +308,7 @@ a:hover:after {
   max-width: 800px;
 }
 
+/* Section Buttons styles */
 .buttons {
   display: flex;
   align-items: center;

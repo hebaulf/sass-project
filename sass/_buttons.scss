@@ -2,8 +2,8 @@
 .btn {
   display: inline-block;
   padding: 16px 30px;
-  background-color: $btn-bg;
-  color: $font_color;
+  background-color: $btn-bg; // Using variable for background color
+  color: $font_color; // Using variable for font color
   font-size: 16px;
   text-decoration: none;
   border: none;
@@ -12,20 +12,20 @@
   transition: background-color 0.3s ease-in-out;
 
   &--blue {
-    background-color: $btn-bg_blue;
+    background-color: $btn-bg_blue; // Using variable for background color
   }
   &--green {
-    background-color: $btn-bg_green;
+    background-color: $btn-bg_green; // Using variable for background color
   }
 
   &:hover {
-    background-color: $btn-bg_hover;
+    background-color: $btn-bg_hover; // Using variable for background color
 
     &.btn--blue {
-      background-color: $btn-bg_blue_hover;
+      background-color: $btn-bg_blue_hover; // Using variable for background color
     }
     &.btn--green {
-      background-color: $btn-bg_green_hover;
+      background-color: $btn-bg_green_hover; // Using variable for background color
     }
   }
 }

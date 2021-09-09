@@ -17,7 +17,7 @@ body {
 
 /* HEADER STYLES */
 header {
-  @include flex-center;
+  @include flex-center; // here I am using the flexbox mixin with centering
   flex-wrap: nowrap;
   height: 12rem;
   width: 100%;
@@ -60,7 +60,7 @@ section {
 
 /* FOOTER STYLES */
 footer {
-  @include flex-center;
+  @include flex-center; // here I am using the flexbox mixin with centering
   flex-wrap: nowrap;
   height: 12rem;
   width: 100%;

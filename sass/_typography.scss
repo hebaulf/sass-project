@@ -8,6 +8,8 @@ h4 {
 }
 
 h1 {
+  // This is the mixin formula for fluid typography, used for all headings and paragraph
+  // fluid-font(min-screen-size, max-screen-size, min-font-size, max-font-size)
   @include fluid-font(320px, 1440px, 36px, 68px);
 }
 
