@@ -1,0 +1,9 @@
+// This is a function that removes the unit of a number (for example: px,rem,em,vw).
+// I am using this function inside the fluid-font mixin (see: _mixins.scss)
+@function strip-unit($number) {
+  @if type-of($number) == "number" and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}

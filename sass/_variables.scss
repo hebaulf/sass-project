@@ -1,0 +1,33 @@
+/* FONT FAMILY */
+$font-family_headings: "Josefin Sans", sans-serif;
+$font-family_base: "Montserrat", sans-serif;
+
+/* FONT SIZE */
+$font-size_base: 1rem;
+$font-size_sm: $font-size_base * 0.75;
+$font-size_lg: $font-size_base * 1.25;
+$font-base_line-height: 1.6;
+$font-headings_line-height: 1.3;
+
+/* BASE COLOR VARIABLES */
+$white: #fff;
+$dark: #333;
+$gray: #ccc;
+$blue: #99b6ba;
+$green: #c7cdab;
+
+/* FONT COLOR VARIABLES */
+$font_color: $dark;
+
+/* BACKGROUND COLOR VARIABLES */
+$bg_blue: #99b6ba;
+$bg_green: #c7cdab;
+
+/* BUTTON COLOR VARIABLES */
+$btn-bg: $gray;
+$btn-bg_blue: $blue;
+$btn-bg_green: $green;
+
+$btn-bg_hover: darken($btn-bg, 10%);
+$btn-bg_blue_hover: darken($btn-bg_blue, 10%);
+$btn-bg_green_hover: darken($btn-bg_green, 10%);

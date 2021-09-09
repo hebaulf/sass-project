@@ -1,0 +1,7 @@
+.links {
+  @include flex-center-column;
+
+  p {
+    max-width: 800px;
+  }
+}

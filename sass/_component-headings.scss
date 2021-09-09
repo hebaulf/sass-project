@@ -1,0 +1,8 @@
+.headings {
+  @include flex-center-column;
+
+  &__main {
+    @include flex-center;
+    justify-content: space-evenly;
+  }
+}
