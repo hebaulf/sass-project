@@ -2,7 +2,7 @@
 
 In this project I decided to set up a page for some design components to make the best of Sass with the least anount of written code.
 
-    [Link to live site](https://hebaulf.github.io/sass-project/)
+[Link to live site](https://hebaulf.github.io/sass-project/)
 
 ### To work on project
 
