@@ -1,3 +1,12 @@
+.headings {
+  @include flex-center-column;
+
+  &__main {
+    @include flex-center;
+    justify-content: space-evenly;
+  }
+}
+
 .paragraphs {
   @include flex-center-column;
 
@@ -20,4 +29,16 @@
       width: 33.333333%;
     }
   }
+}
+
+.links {
+  @include flex-center-column;
+
+  p {
+    max-width: 800px;
+  }
+}
+
+.buttons {
+  @include flex-center-column;
 }

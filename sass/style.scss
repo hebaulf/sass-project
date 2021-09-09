@@ -1,19 +1,12 @@
-// Variables & Functions
+/* VARIABLES & FUNCTIONS */
 @import "variables";
 @import "functions";
 @import "mixins";
 
-// Base & Layout
+/* BASE & LAYOUT */
 @import "base";
 @import "typography";
 @import "buttons";
 
-// Colors
-
-// Components
-@import "component-headings";
-@import "component-paragraphs";
-@import "component-links";
-@import "component-buttons";
-
-// Utilities
+/* COMPONENTS */
+@import "sections";

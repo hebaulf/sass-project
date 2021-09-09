@@ -1,5 +1,7 @@
+/* GOOGLE FONTS IMPORT */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap");
 
+/* BASE STYLES */
 html {
   width: 100vw;
   max-width: 100vw;
@@ -13,6 +15,7 @@ body {
   overflow-x: hidden;
 }
 
+/* HEADER STYLES */
 header {
   @include flex-center;
   flex-wrap: nowrap;
@@ -25,12 +28,14 @@ header {
   }
 }
 
+/* MAIN STYLES */
 main {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
 }
 
+/* SECTION STYLES */
 section {
   position: relative;
   width: 100%;
@@ -53,6 +58,7 @@ section {
   }
 }
 
+/* FOOTER STYLES */
 footer {
   @include flex-center;
   flex-wrap: nowrap;
