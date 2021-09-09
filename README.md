@@ -8,7 +8,7 @@ In this project I decided to set up a page for some design components to make th
 
 ### Sass tools and aspects I used
 
-- Gulp-sass to compile sass to css. (see: sass/\_variables.scss)
+- Gulp-sass to compile sass to css. (see: gulpfile.js)
 - File structure to break down elements for cleaner code.
 - Nesting elements for clean code. (see: all .scss files)
 - Variables for fonts and colors. (see: sass/\_variables.scss)
